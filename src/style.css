@@ -1,22 +1,93 @@
-.title {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.main {
+    background-color: rgb(207, 156, 60);
+}
+.Col {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    overflow-x: hidden;
+}
+.left {
+    left: 0;
+    background-color: rgb(184, 174, 119);
+}
+.right {
+    right: 0;
+    background-color: rgb(235, 228, 189);
+}
+nav {
+    box-shadow: 6px 5px 3px 3px rgb(136, 129, 87);
+    margin-bottom: 90px;
+}
+.nvbar {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+li {
+    margin-top: 20px;
+}
+ul img {
+    margin-right: 300px;
+}
+.nav-link {
+    text-decoration: none;
+    color:  rgb(235, 228, 189);
+    font-size: large;
+    font-family: "adobe-garamond-pro";
+}
+.symbol {
+    margin-left: 90px;
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+}
+.intro {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: "adobe-garamond-pro";
+    font-size: 25px;
+    color: rgb(235, 228, 189);
+}
+footer {
     text-align: center;
-    margin-top: 70px;
+    font-family: "adobe-garamond-pro";
+    font-size: medium;
+    color:  rgb(235, 228, 189);
+}
+iframe {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;  
+    box-shadow: 5px 8px 8px  rgb(136, 129, 87); 
+}
+.title {
+    font-family: "adobe-garamond-pro";
+    margin-left: 100px;
+    margin-top: 80px;
 }
 .red {
-    color: rgb(50, 124, 124);
+    color: rgb(184, 174, 119);
 }
-div img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+p {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    font-family: "adobe-garamond-pro";
+    font-size: larger;
+    text-align: left;
+    color: rgb(136, 129, 87);
 }
-video {
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.contacts {
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    margin-top: 90px;
+}
+.contact {
+    margin-left: 40px;
+    color: grey;
 }
